@@ -25,3 +25,23 @@
   margin-top: -25px;
   background-color: red;
 }
+
+label::after {
+  content: "*";
+}
+
+fieldset {
+  margin-top: 50px;
+  height: 20vh;
+  position: sticky;
+  top: 0px;
+  width: clamp(50%, 10px, 80%); // width, min-width, max-width in one line
+}
+
+body {
+  height: 200vh;
+}
+
+.testing::after {
+  content: attr(data-testing);
+}

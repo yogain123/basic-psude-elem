@@ -8,5 +8,41 @@
   </head>
   <body class="container">
     <div class="parent"></div>
+    <label for="name">name</label>
+    <input type="text" id="name" name="name" />
+
+    <p class="testing" data-testing="this is a testing data from attr"></p>
+
+    <progress></progress>Loading...
+
+    <progress max="100" value="70"></progress>Loading...
+
+    <p>H<sub>2</sub>O</p>
+    <p>X<sup>3</sup></p>
+
+    <template id="myTemplate">
+      <p>My Title</p>
+      <p>age</p>
+      <p>Address</p>
+    </template>
+
+    <div class="app"></div>
+
+    <fieldset>
+      <legend>Enter Your name</legend>
+    </fieldset>
+
+    <iframe
+      src="https://u-tuber-2988a.firebaseapp.com"
+      frameborder="0"
+    ></iframe>
+
+    <script>
+      const template = document
+        .getElementById("myTemplate")
+        .content.cloneNode(true);
+
+      document.getElementsByClassName("app")[0].appendChild(template);
+    </script>
   </body>
 </html>

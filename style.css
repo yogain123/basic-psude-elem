@@ -35,7 +35,7 @@ fieldset {
   height: 20vh;
   position: sticky;
   top: 0px;
-  width: clamp(50%, 10px, 80%); // width, min-width, max-width in one line
+  width: clamp(50%, 10px, 80%); // min-width, preferred-width, max-width in one line
 }
 
 body {

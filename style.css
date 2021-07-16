@@ -61,7 +61,7 @@ align-item: flex-start/flex-end/center/stretch;   // default: stretch
 flexbox item properties:
 -----------------------------
 flex: 1;   // default 1 1 auto
-flex: 1 1 0;  [flex-grow][flex-shrink][flex-basis]
+flex: 1 1 auto;  [flex-grow][flex-shrink][flex-basis]
 flex-grow: 1;
 flex-shrink: 1;
 flex-basis: 200px;   // width

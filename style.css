@@ -68,3 +68,17 @@ flex-basis: 200px;   // width
 order: 1
 align-self: flex-end/flex-start/center/stretch
  */
+
+/**
+flex:1 is by default is flex: 1 1 auto
+flex-grow // default is 0
+flex-shrink // default is 1
+flex-basis // default is auto
+
+flex-basis is basically determine your width
+ 
+if only flex-basis -> flex-basis value is of flex-basis
+if flex-basis with max-width -> flex-basis value is min of flex-basis or max-width
+if flex-basis with min-width -> flex-basis value is max of flex-basis or max-width
+if flex-basis with min-width and max-width -> flex-basis values is of flex-basis, and it should be mandatory in -> min-width>=flex-bssis>=max-width
+*/

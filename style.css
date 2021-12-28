@@ -79,6 +79,6 @@ flex-basis is basically determine your width
  
 if only flex-basis -> flex-basis value is of flex-basis
 if flex-basis with max-width -> flex-basis value is min of flex-basis or max-width
-if flex-basis with min-width -> flex-basis value is max of flex-basis or max-width
+if flex-basis with min-width -> flex-basis value is max of flex-basis or min-width
 if flex-basis with min-width and max-width -> flex-basis values is of flex-basis, and it should be mandatory in -> min-width>=flex-bssis>=max-width
 */

@@ -46,6 +46,14 @@ body {
   content: attr(data-testing);
 }
 
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body { background-color: var(--blue); }
+
 /**
  flexbox::
 
